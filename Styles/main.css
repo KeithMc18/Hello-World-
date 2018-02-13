@@ -1,0 +1,24 @@
+/*------ Text colours and styles ------*/
+p {
+    color: rgb(249,255,235);
+}
+
+h1 {
+    color: orangered;
+}
+
+h2{
+    color: orangered;
+}
+
+h3 {
+    color: white;
+}
+/*------------------------------------*/
+img{ 
+    width: 300px;
+    border: 5px solid gray;
+}
+body{
+    background-color: rgb(40, 40, 40)
+}
