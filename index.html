@@ -2,34 +2,105 @@
 <html> 
 
     <head>
-        <title> My First HTML Project</title>
+        <title> Home</title>
         <meta charset="UTF-8">
-    
+        <meta name="viewpoint" content="width=device-width, initial-scale=1">
+        
+        
+        <link href="styles/main.css" rel="stylesheet" type="text/css">
+        <link href="styles/normalise.css" rel="stylesheet" type="text/css">
+        
+        <!---<script type="text/javascript">
+                window.onload = function(){
+                alert ("Hi!");
+                };
+        </script>--->
+        
     </head>
     <body>
+        <header>
+            <a href="index.html"><img src="Images/HTML5.jpg" alt="HTML5"></a>
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="page2.html">Page 2</a></li>
+                        <li><a href="locations.html">Locations</a>  </li>
+                        <li><a href="contactUs.html">Contact Us</a>  </li>
+                    </ul>
+                </nav>
+        </header>
         <h1>HTML</h1>
-        <img src="Images/HTML5.jpg" alt="image of HTML 5">
-        <br/>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-        <h2> First Day</h2>   
-        
-<p>Today is Thurday the 8th of Febuary 2018. This is my first attempt at a HTML porject. I hope that it goes well.</p>
-        
-<p>Using lowercase tags is best practice in this language.</p>
-        
-<p>There are six different levels of headings and they range from h1, which is the largest, to h6, which is the samllest.</p>
-        
-        <h3>Web Standards</h3>
-<p>These are best practices and guidelines for the web. They also help you write HTML the right way. Benefits include SEO, Accessibility, Maintainability, cross-device and browser compatability.</p>
-        
-        <p>Here is a link to Youtube 
-        <a href="https://www.youtube.com/"> www.youtube.com/</a></p>
-        
+        <div>                
             
+            <h2> First <a href="#days">Days</a></h2>
+
+            <p>Today is Thurday the 8th of Febuary 2018. This is my first attempt at a HTML project. I hope that it goes well.</p>
+
+            <p>Using <u>lowercase</u> tags is best practice in this language.There are <b>six</b> different levels of headings and they range from h1, which is the largest, to h6, which is the smallest.</p>
+        </div>
+        
+        <div>
+            <h3>Web Standards</h3>
+            <p>These are best practices and guidelines for the web. They also help you write HTML the right way. Benefits include <i>SEO, Accessibility, Maintainability</i>, cross-device and browser compatability.</p>
+        </div>
+        
+        <div>
+            <pre>
+
+             <hr>
+
+            </pre> 
+            <p>Here is a link to Youtube 
+                <a href="https://www.youtube.com/"> www.youtube.com/</a></p>
+        </div>
+        
+        <div>
+        
+            <h2><a name="days">Days</a> of the Week</h2>
+            <ul>
+                <li>Monday</li>
+                    <ol>
+                        <li>Wake up: 7am</li>
+                        <li>Work: 8am</li>
+                        <li>Home: 5pm</li>
+                    </ol>
+                <li>Tuesday</li>
+                <li>Wednesday</li>
+                <li>Thursday</li>
+                <li>Friday</li>
+                <li>Saturday</li>
+                <li>Sunday</li>
+            </ul>
+        </div>
+        
+        <div>
+            <aside>
+                <details>
+                <summary><h2>Months of the Year</h2></summary>
+                <ol> 
+                    <li>January</li>
+                    <li>February</li>
+                    <li>March</li>
+                    <li>April</li>
+                    <li>May</li>
+                    <li>June</li>
+                    <li>July</li>
+                    <li>August</li>
+                    <li>September</li>
+                    <li>October</li>
+                    <li>November</li>
+                    <li>December</li>
+                </ol>
+                </details>
+            </aside>
+        </div>
+        
+        <div>
+            <a href="page2.html">Page 2</a>
+        </div>
+        <footer>
+        
+        </footer>
     </body>
-
-
-
-
 
 </html>

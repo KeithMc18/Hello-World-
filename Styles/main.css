@@ -1,24 +1,47 @@
 /*------ Text colours and styles ------*/
-p {
+p, h3 {
     color: rgb(249,255,235);
 }
-
 h1 {
-    color: orangered;
+    color: rgb(255,69,0);
+    text-align: center;
 }
-
 h2{
     color: orangered;
 }
-
-h3 {
-    color: white;
+p{    
+    width: 90%; 
+    margin-left: 15px;
+    text-align:    
 }
 /*------------------------------------*/
-img{ 
+img{
     width: 300px;
-    border: 5px solid gray;
-}
+    height: 200px;
+    border: 5px solid gray;}
+   /*--- float: right;
+    margin-left: 10px;
+}---*/
 body{
-    background-color: rgb(40, 40, 40)
+    background-color: rgb(40,40,40);
+}
+html{
+    border: 10px solid rgb(255,69,0);
+    padding: 20px;
+}
+ul,ol{
+    color: rgb(249,255,235);
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(100,100,100);
+}
+table{
+    border-color: rgb(255, 248, 248);
+    text-align: center;
+    color: rgb(220,60,100);
+}
+select{
+    color: rgb(250,255,250);
+    background-color: rgb(255,69,0)
 }
